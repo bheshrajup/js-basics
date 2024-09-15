@@ -87,6 +87,9 @@ console.log("This will run anyhow");``
 let age= 18;
 
 switch(age){
+    case 10+8:
+        console.log("This is true.");
+        break;
     case 10:
         console.log("You are not a teenager");
         break;
@@ -95,11 +98,79 @@ switch(age){
         console.log("You just become teenager");
         break;
     
-    case 18:
+    case 22:
         console.log("You are now matured.");
         break;
     
     default:
         console.log("This will run when the case abouve are not true.");
         break;
+
+    
+}
+
+//won't work the comparision
+let number = 5;
+
+switch (number) {
+  case number < 10:
+    console.log("Value is less than ten");
+    break;
+  case number < 20:
+    console.log("Value is less than twenty");
+    break;
+
+  default:
+    console.log("Value is twenty or more");
+}
+
+
+//using if--else--if
+// let weekdayNumber = 1;
+
+// if (weekdayNumber === 0) {
+//   console.log("Sunday");
+// } else if (weekdayNumber === 1) {
+//   console.log("Monday");
+// } else if (weekdayNumber === 2) {
+//   console.log("Tuesday");
+// } else if (weekdayNumber === 3) {
+//   console.log("Wednesday");
+// } else if (weekdayNumber === 4) {
+//   console.log("Thursday");
+// } else if (weekdayNumber === 5) {
+//   console.log("Friday");
+// } else if (weekdayNumber === 6) {
+//   console.log("Saturday");
+// } else {
+//   console.log("The weekday number is invalid");
+// }
+
+//using switch statement
+let weekdayNumber = 1;
+
+switch (weekdayNumber) {
+  case 0:
+    console.log("Sunday");
+    break;
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  default:
+    console.log("The weekday number is invalid");
 }
