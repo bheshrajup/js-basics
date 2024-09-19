@@ -36,17 +36,6 @@ avoid using 'var' keyword. use of 'let' keyword is fine.
 // }
 // console.log(name); //this will prompt error
 
-
-//Exercise
-const myName = "Bheshraj Upadhyaya";
-const age = 21;
-const occupation = "Student";
-
-console.log(myName);
-console.log(age);
-console.log(occupation);
-
-
 //Data types
 
 console.log(2+2)

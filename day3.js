@@ -84,4 +84,3 @@ console.log("5">2) //true
 console.log((false&&true)||true); //true
 
 
-//Array
